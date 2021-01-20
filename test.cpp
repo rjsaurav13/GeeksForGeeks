@@ -1,10 +1,9 @@
 #include<iostream>
 using namespace std;
 int main(){
-
-        for(int j=7;j<20;j++){
-            cout<<j*j<<"\n";
-        }
-
+    int n;
+    cin>>n;
+    double m1=n%2;
+        cout<<m1;
 return 0;
 }
