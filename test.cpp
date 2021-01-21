@@ -1,9 +1,9 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int n;
-    cin>>n;
-    double m1=n%2;
-        cout<<m1;
+    for(int i=1;i<=10;i++){
+   int s=i*i;
+    cout<<s<<"\n";
+   }
 return 0;
 }
