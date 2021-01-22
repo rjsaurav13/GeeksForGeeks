@@ -1,9 +1,12 @@
 #include<iostream>
 using namespace std;
 int main(){
-    for(int i=1;i<=10;i++){
-   int s=i*i;
-    cout<<s<<"\n";
-   }
+    int N;
+    cin>>N;
+    int pro=1;
+        for(int i=1;i<=N;i++){
+            pro=pro*i;
+        }
+        cout<<pro;
 return 0;
 }
