@@ -5,16 +5,19 @@ using namespace std;
 class Solution {
   public:
     vector<int> primeRange(int M, int N) {
+        int arr[N];
         for(int i=M;i<=N;i++){
             for(int j=2;j<=i;j++){
                 if(i%j==0){
                     break;
                 }
                 else{
-                    cout<<i<<"\n";
+                    arr[i]=i;
                 }
             }
+            return arr[N];
         }
+
     }
 };
 
