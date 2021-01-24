@@ -12,8 +12,8 @@ public:
 
 	int divisibleBy4 (string N)
 	{
-	    int n = stoi(N);
-	    cout<<n%4;
+
+
 
 	}
 };
