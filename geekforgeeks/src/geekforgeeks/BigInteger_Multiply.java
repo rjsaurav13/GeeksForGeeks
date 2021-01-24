@@ -5,7 +5,7 @@ package geekforgeeks;
 
 /*package whatever //do not write package name here */
 
-import java.io.*;
+
 import java.util.*;
 import java.math.BigInteger;
 
@@ -16,7 +16,7 @@ import java.math.BigInteger;
 /* Class MathematicalOperation with add fucntion
 * x, y : Two parameters of BigIntegers to multiply
 */
-class MathematicalOperation {
+class MathematicalOperationss {
 
 	static BigInteger mul(BigInteger x, BigInteger y) {
 		BigInteger mul;
@@ -30,7 +30,7 @@ class MathematicalOperation {
 //{ Driver Code Starts.
 
 //Driver class with main function
-class GFG {
+class GFGss {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -47,9 +47,10 @@ class GFG {
 			BigInteger y = sc.nextBigInteger();
 
 			// Calling function add to add two BigIntegers
-			MathematicalOperation obj = new MathematicalOperation();
+			MathematicalOperationss obj = new MathematicalOperationss();
 			System.out.println(obj.mul(x, y));
 		}
-
+		sc.close();
 	}
+	
 } // } Driver Code Ends
