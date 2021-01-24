@@ -10,7 +10,7 @@ import java.util.Scanner;
 /* Class MathematicalOperation with mod fucntion
 * x, y : Two parameters of BigIntegers to find mod
 */
-class MathematicalOperation {
+class MathematicalOperations {
 
 	static BigInteger mod(BigInteger x, BigInteger y) {
 		BigInteger mod1;
@@ -24,7 +24,7 @@ class MathematicalOperation {
 //{ Driver Code Starts.
 
 //Driver class with main function
-class GFG {
+class GFGs {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -41,7 +41,7 @@ class GFG {
 			BigInteger y = sc.nextBigInteger();
 
 			// Calling function add to find mod two BigIntegers
-			MathematicalOperation obj = new MathematicalOperation();
+			MathematicalOperations obj = new MathematicalOperations();
 			System.out.println(obj.mod(x, y));
 		}
 
