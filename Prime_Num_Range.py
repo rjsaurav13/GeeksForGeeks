@@ -2,7 +2,7 @@
 
 class Solution:        
     def primeRange(self,M,N):
-        for i in range(M, N):
+        for i in range(M, N+1):
             for x in range(2, i):
                 if (i % x == 0):
                     break
