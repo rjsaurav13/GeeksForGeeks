@@ -18,6 +18,7 @@ void merge(int arr1[], int arr2[], int n, int m)
 		for (int i=0;i<m;i++) {
 
 			arr3[n+i]=arr2[i];
+			cout<<arr3[i];
 		}
 
 
@@ -33,20 +34,34 @@ void merge(int arr1[], int arr2[], int n, int m)
             }
         }
 
+
 		for (int i=0;i<n;i++) {
-            cout<<arr1[i]<<" ";
-            //arr1[i]=arr3[i];
-            //arr2[n+i]=arr3[i];
+
+
+            arr1[i]=arr3[i];
+
 		}
 
-        for (int e=0;e<n;e++) {
+        for (int e=m;e<=n;e++) {
+            arr2[e]=arr3[e];
 
-			//cout<<arr2[e]<<" ";
 		}
+		int temp1;
+		for(int i=0;i<m;i++){
+            for(int j=i+1;j<m;j++){
+                if(arr2[i]>arr2[j]){
+                        temp1=arr2[i];
+                        arr2[i]=arr2[j];
+                        arr2[j]=temp1;
+
+                }
+            }
+        }
+
 }
 
 
-// { Driver Code Starts.
+
 
 int main()
 {
@@ -70,13 +85,13 @@ int main()
 
 	    merge(arr1, arr2, n, m);
 
-        //for (int i = 0; i < n; i++)
-          //  printf("%d ", arr1[i]);
-            //cout<<"---------------------------------";
+        for (int i = 0; i < n; i++)
+            printf("%d ", arr1[i]);
+            cout<<"---------------------------------";
 
 
-	  //  for (int i = 0; i < m; i++)
-		//    printf("%d ", arr2[i]);
+	   for (int i = 0; i < m; i++)
+		    printf("%d ", arr2[i]);
 
 	   // cout<<endl;
 	}
