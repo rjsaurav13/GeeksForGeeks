@@ -2,8 +2,15 @@
 using namespace std;
 int main(){
 
-    char pro='7';
+    int num;
+    cin>>num;
+    int temp,num2=0;
+    while(num>0)
+    {
+        num2 = num2*10 + num%10;
+        num = num/10;
+    }
+    cout<<num<<" "<<num2;
 
-        cout<<int(pro);
 return 0;
 }
