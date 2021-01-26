@@ -8,9 +8,9 @@ for(int i=0;i<tcase;i++){
     long num;
     cin>>num;
     if(num%8==0){
-        cout<<"Yes";
+        cout<<"Yes\n";
     }else{
-        cout<<"No";
+        cout<<"No\n";
     }
 }
 
