@@ -13,6 +13,7 @@ public class Adjacent_char {
 				if (s.charAt(i) == s.charAt(j)) {
 					arr[i] = i;
 					
+					
 				}
 			}
 		}
