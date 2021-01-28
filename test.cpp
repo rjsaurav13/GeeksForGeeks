@@ -1,22 +1,14 @@
 #include<iostream>
 using namespace std;
 int main(){
-for(int i=1;i<=100;i++){
-            int temp1,count=0,temp=i;
-            while(i!=0){
-
-                temp1=temp%10;
-                if(temp1==9){
-                    break;
-                }
-                else{
-                    count++;
-                }
-
-            }
-            cout<<count;
-        }
-
+int a;
+cin>>a;
+int c=0,d=0;
+    while(a != 0){
+        c=c*10+a%10;
+        a=a/10;
+    }
+    cout<<c;
 
 
 return 0;
