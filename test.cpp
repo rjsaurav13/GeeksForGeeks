@@ -1,14 +1,13 @@
 #include<iostream>
 using namespace std;
 int main(){
-int a;
-cin>>a;
-int c=0,d=0;
-    while(a != 0){
-        c=c*10+a%10;
-        a=a/10;
-    }
-    cout<<c;
+int a[]={1,2,3,4};
+int n=4;
+int num=0;
+        for(int i=0;i<n;i++){
+            num=(num*10)+a[i];
+        }
+        cout<<num;
 
 
 return 0;
