@@ -2,12 +2,12 @@
 using namespace std;
 int main(){
 int a[]={1,2,3,4};
-int n=4;
+int n=4,k=2;
 int num=0;
-        for(int i=0;i<n;i++){
-            num=(num*10)+a[i];
+        for(int i=0;i<k;i++){
+            cout<<a[i];
         }
-        cout<<num;
+
 
 
 return 0;
