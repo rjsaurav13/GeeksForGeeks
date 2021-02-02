@@ -57,6 +57,9 @@ void merge(int arr1[], int arr2[], int n, int m)
                 }
             }
         }
+        for(int i=0;i<o;i++){
+            cout<<arr3[i]<<" ";
+        }
 
 }
 
@@ -85,7 +88,7 @@ int main()
 
 	    merge(arr1, arr2, n, m);
 
-        for (int i = 0; i < n; i++)
+     /*   for (int i = 0; i < n; i++)
             printf("%d ", arr1[i]);
             cout<<"---------------------------------";
 
@@ -95,7 +98,7 @@ int main()
 
 	   // cout<<endl;
 	}
-
+	*/
+    }
 	return 0;
 }
-  // } Driver Code Ends
