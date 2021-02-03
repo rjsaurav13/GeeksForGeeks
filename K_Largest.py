@@ -7,7 +7,7 @@ class Solution:
         for i in range(0, k):
             arr2[i] = arr[i]
 
-    return arr2
+        return arr2
 
 
 # {
