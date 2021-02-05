@@ -1,23 +1,12 @@
 #include<iostream>
+#include <cmath>
 using namespace std;
 int main()
 {
-int N;
-cin>>N;
-int count=0;
-for(int i=1;i<=N;i++){
+int N=4;
+int  r=2, n=4, result;
 
-    int number=i;
-    while (number > 0)
-    {
-        if(number % 10 == 2)
-            count++;
-
-        number = number / 10;
-    }
-
-}
-  cout<<count;
-
+result = 2*pow(r, n-1);
+cout<<result;
 return 0;
 }
