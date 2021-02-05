@@ -26,7 +26,28 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.ItsMagic">
+    <configuration name="ItsMagic" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="GeeksForGeeks" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ItsMagic.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Merge_Arrays" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GeeksForGeeks" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -50,6 +71,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ItsMagic" />
         <item itemvalue="Python.Merge_Arrays" />
       </list>
     </recent_temporary>
@@ -66,25 +88,33 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1515" height="282" key="GridCell.Tab.0.bottom" timestamp="1612293952682">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1899" height="374" key="GridCell.Tab.0.bottom" timestamp="1612518821720">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="282" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1612293952682" />
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1612286558497" />
-    <state width="1515" height="282" key="GridCell.Tab.0.center" timestamp="1612293952682">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1899" height="374" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1612518821720" />
+    <state width="1899" height="374" key="GridCell.Tab.0.center" timestamp="1612518821720">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="282" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1612293952682" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1612286558496" />
-    <state width="1515" height="282" key="GridCell.Tab.0.left" timestamp="1612293952682">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1899" height="374" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1612518821720" />
+    <state width="1899" height="374" key="GridCell.Tab.0.left" timestamp="1612518821720">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="282" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1612293952682" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1612286558496" />
-    <state width="1515" height="282" key="GridCell.Tab.0.right" timestamp="1612293952682">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1899" height="374" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1612518821720" />
+    <state width="1899" height="374" key="GridCell.Tab.0.right" timestamp="1612518821720">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="282" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1612293952682" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1612286558497" />
+    <state width="1899" height="374" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1612518821720" />
+    <state x="2697" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612515494161">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2697" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1612515494161" />
+    <state x="2543" y="225" key="search.everywhere.popup" timestamp="1612516632062">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2543" y="225" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1612516632062" />
   </component>
 </project>
