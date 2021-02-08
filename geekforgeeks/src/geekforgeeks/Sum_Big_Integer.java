@@ -1,9 +1,6 @@
 package geekforgeeks;
-//{ Driver Code Starts
-//Initial Template for Java
-import java.io.*;
-import java.util.*;
 import java.math.BigInteger;
+import java.util.Scanner;
 
 
 // } Driver Code Ends
